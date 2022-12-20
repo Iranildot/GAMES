@@ -1,0 +1,83 @@
+
+        body {
+            background-color: rgb(207, 207, 207);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        div.fundo {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+        }
+        
+        header h1 { /*Título principal*/
+
+            background-image: url('./images/estrela.png');
+            border-top:8px solid black;
+            border-bottom:8px solid black;
+            font-size: 25pt;
+            padding: 15px;
+            text-align: center;
+        }
+
+        div.start {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            border-top: 30px solid blue;
+            border-left: 30px solid red;
+            border-bottom: 30px solid green;
+            border-right: 30px solid yellow;
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            box-shadow:10px 10px 10px black;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 60pt;
+            text-decoration: none;
+            border-radius: 100%;
+            width: 100%;
+            height: 100%;
+        }
+
+        a:hover {
+            background-color: gainsboro;
+            color: black;
+        }
+        .selected{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            border-top: 30px solid red;
+            border-left: 30px solid green;
+            border-bottom: 30px solid yellow;
+            border-right: 30px solid blue;
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            box-shadow:10px 10px 10px black;
+        }
+
+        p {
+            font-size: 30pt;
+            margin: 20px 0 0 0;
+            padding: 0;
+        }
+
+        input {
+            font-size: 20pt;
+        }
